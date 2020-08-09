@@ -1,0 +1,118 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.liste__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    border-radius: 0.3rem;
+    padding: 15px;
+    background-color: aliceblue;
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+.contact__titre {
+
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.avatar {
+    margin: 0.2rem;
+    flex: 1;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+h2,h3{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: auto 0;
+    font-weight: 100;
+}
+
+
+
+.contact__nom {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin-left: 10px;
+    height: 100%;
+    line-height: 1.3rem;
+}
+
+.contact__numeros {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.number {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 0;
+    width: 100%;
+    color: brown;
+}
+
+.choix{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
